@@ -14,7 +14,7 @@ namespace RayNotationGenerator
 
         public void Encode()
         {
-            byte[] bytes = System.Text.Encoding.Default.GetBytes(textbox.Text);
+            byte[] bytes = System.Text.Encoding.UTF8.GetBytes(textbox.Text);
             List<Image> images = new List<Image>();
 
             int imageSize = (int) SizeSelect.Value;
