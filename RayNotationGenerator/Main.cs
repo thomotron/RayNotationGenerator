@@ -44,7 +44,7 @@ namespace RayNotationGenerator
                 Point pos7Finish    = new Point(0               , 0             );
                 
                 // Determine what colour everything is
-                Pen pos0C = (b & (1 << 0)) != 0 ? new Pen(Color.FromArgb(255, 0, 0, 0), imageSize/10) : new Pen(Color.FromArgb(0, 0, 0, 0), imageSize / 10);
+                Pen pos0C = (b & (1 << 0)) != 0 ? new Pen(Color.FromArgb(255, 0, 0, 0), imageSize / 10) : new Pen(Color.FromArgb(0, 0, 0, 0), imageSize / 10);
                 Pen pos1C = (b & (1 << 1)) != 0 ? new Pen(Color.FromArgb(255, 0, 0, 0), imageSize / 10) : new Pen(Color.FromArgb(0, 0, 0, 0), imageSize / 10);
                 Pen pos2C = (b & (1 << 2)) != 0 ? new Pen(Color.FromArgb(255, 0, 0, 0), imageSize / 10) : new Pen(Color.FromArgb(0, 0, 0, 0), imageSize / 10);
                 Pen pos3C = (b & (1 << 3)) != 0 ? new Pen(Color.FromArgb(255, 0, 0, 0), imageSize / 10) : new Pen(Color.FromArgb(0, 0, 0, 0), imageSize / 10);
